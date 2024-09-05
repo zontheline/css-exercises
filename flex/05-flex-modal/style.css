@@ -9,10 +9,9 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .modal {
@@ -20,6 +19,27 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  row-gap: 12px;
+}
+
+.top-container {
+  display: flex;
+}
+
+.header {
+  font-weight: bolder;
+  font-size:larger;
 }
 
 .icon {
@@ -33,6 +53,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -48,12 +69,18 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
 }
 
 button.continue {
