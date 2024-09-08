@@ -2,9 +2,29 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0px 10px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+.header, .footer {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-links, .left-links {
+  display: flex;
+  gap: 15px;
+}
+
+.right-links {
+  margin-left: auto;
 }
 
 img {
@@ -16,6 +36,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 7px;
 }
 
 input {
@@ -23,4 +44,9 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
 }

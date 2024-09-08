@@ -23,14 +23,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 15px;
-
 }
 
 .right-container {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  row-gap: 12px;
+  row-gap: 10px;
 }
 
 .top-container {
