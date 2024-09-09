@@ -2,13 +2,21 @@
 
 body {
   height: 100vh;
-  margin: 0px 10px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.header, .footer {
+.header {
   display: flex;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
 }
 
 .content {
@@ -49,4 +57,9 @@ input {
 ul {
   list-style-type: none;
   padding: 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color: grey;
 }
